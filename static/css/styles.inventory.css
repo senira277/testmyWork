@@ -1,0 +1,395 @@
+.inventory-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  width: 150px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.level {
+  height: 200px;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.fill {
+  width: 100%;
+  background-color: #4caf50;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.3s ease;
+}
+
+.quantity {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ingredient-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.recent-update {
+  font-size: 12px;
+  color: #666;
+}
+
+.search-filter {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #e6e5e5; /* Light background to make it stand out */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-filter input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-filter select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the checkbox container */
+.checkbox-label {
+  display: flex;
+  align-items: center; /* Center the checkbox and text vertically */
+  gap: 8px; /* Space between checkbox and text */
+}
+
+/* Style the checkbox */
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  cursor: pointer;
+  appearance: none; /* Remove default styling */
+}
+
+.custom-checkbox:checked {
+  background-color: black;
+}
+
+/* Style the text container */
+.checkbox-text {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+  color: black;
+  font-size: 14px;
+}
+
+/* Style the subtext */
+.checkbox-subtext {
+  font-size: 12px; /* Smaller font size for subtext */
+  color: grey; /* Slightly different color for subtext */
+}
+
+.search-filter button {
+  background-color: #6a67ce;
+  color: #fff;
+  padding: 15px 22px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-filter button:hover {
+  background-color: #5753c4;
+}
+
+/* Inventory Table */
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0 50px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.inventory-table thead {
+  background-color: #f8f9fa;
+}
+
+.inventory-table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.inventory-table tr {
+  transition: background-color 0.3s ease;
+}
+
+.inventory-table tr:hover {
+  background-color: #e9ecef;
+}
+
+.inventory-table .good {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.inventory-table .mid {
+  color: #8528a7;
+  font-weight: bold;
+}
+
+.inventory-table .low {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.inventory-table th {
+  background-color: #6200ea;
+  color: white;
+}
+
+/* Restock page */
+/* Updated Items Section */
+.update-box {
+  position: relative; /* Add this */
+  margin: 40px 0 100px;
+}
+
+.update-box .list {
+  padding: 40px;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  font-size: 18px;
+  color: #a0a0a0;
+  border-radius: 10px;
+  position: relative;
+}
+
+.update-box button {
+  position: absolute; /* Change this */
+  right: 0;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Release Item section */
+/* Order Select Dropdown */
+.order-select {
+  margin: 20px 0;
+  font-size:xx-large;
+}
+
+.order-select label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.order-select select {
+  padding: 12px;
+  height: 35px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Order Details */
+.order-details {
+  background-color: #f1f8e9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.order-details p {
+  margin: 5px 0;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btns{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap:10px;
+justify-content: space-between;
+margin: 5px 0 50px;
+}
+
+.add-row-btn, .update-btn {
+  background-color: #6a67ce;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-row-btn{
+  border-radius: 50%;
+  padding: 16px;
+
+}
+
+
+.update-btn {
+  float: right;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+}
+
+/* Stock controlls section */
+.form-section{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  flex-direction: row;
+}
+
+/* Form Container */
+.form-container {
+  position: relative;
+  width: 550px;
+  height: fit-content;
+  background: #EBFFED;
+  border-radius: 15px;
+  padding: 30px 5%;
+}
+
+/* Form Heading */
+.form-container h2 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #4539C8;
+  margin-bottom: 20px;
+}
+
+#addItemForm, #updateItemForm{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center; /* Horizontally centers the button */
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.form-container span{
+  font-size: 0.8em;
+  color: #888;
+}
+
+.form-container button {
+  padding: 10px 30px;
+  background-color: black;
+  width:90%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative; /* For positioning the plus icon */
+}
+
+.alert-input {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.form-container .level-inputs{
+  display: flex;
+  flex-direction: row;
+  gap: 15px
+}
+
+.form-container .line-inputs{
+  width: 90%;
+}
+
+.track-items{
+  padding: 10px 10%;
+  margin:40px 0 ;
+}
+
+.track-items h2{
+  text-align: center;
+  margin: 20px 0 30px;
+  color:#14AE5C;
+
+}
+
+.track-items .select-items{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  font-style: normal;
+  color: #514e4e;
+  font-weight: 700px;
+  gap:20px
+}
+
+.track-items .select-items div{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  width: 16%;
+  min-width: 150px;
+}

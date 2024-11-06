@@ -1,0 +1,38 @@
+
+php:
+    intro:
+        tags: https://www.php.net/manual/en/language.basic-syntax.phptags.php
+        comments: https://www.php.net/manual/en/language.basic-syntax.comments.php
+        echo/print: https://www.w3schools.com/php/php_echo_print.asp
+        data types: https://www.php.net/manual/en/language.types.intro.php
+        strings: https://www.tutorialspoint.com/php/php_strings.htm
+        include: https://www.tutorialspoint.com/php/php_file_include.htm
+        classes/objects: https://www.php.net/manual/en/language.oop5.basic.php
+        errors: https://www.php.net/manual/en/language.exceptions.php
+        predefined variables: https://www.php.net/manual/en/reserved.variables.php
+        namespaces: https://www.php.net/manual/en/language.namespaces.rationale.php
+        enumerations: https://www.php.net/manual/en/language.enumerations.basics.php
+        var dump(debugging): https://www.tutorialspoint.com/php/php_var_dump_function.htm
+    set response code: https://www.w3schools.com/php/func_network_http_response_code.asp
+    set response header: https://www.w3schools.com/php/func_network_header.asp
+    get/post: https://www.tutorialspoint.com/php/php_get_post.htm
+    exit: https://www.w3schools.com/php/func_misc_exit.asp
+    file upload: https://www.w3schools.com/php/php_file_upload.asp
+    json encode: https://www.geeksforgeeks.org/php-json_encode-function
+    ajax/api: https://www.tutorialspoint.com/php/php_ajax.htm
+    sessions:
+        https://www.php.net/manual/en/intro.session.php
+        https://www.w3schools.com/php/php_sessions.asp
+    send mail: https://www.w3schools.com/php/func_mail_mail.asp
+    mysql:
+        connect: https://www.tutorialspoint.com/mysqli/mysqli_connection.htm
+        query: https://www.tutorialspoint.com/mysqli/mysqli_select_query.htm
+        escape string: https://www.php.net/manual/en/mysqli.real-escape-string.php
+        login example: https://www.tutorialspoint.com/php/php_mysql_login.htm
+        ref: https://www.php.net/manual/en/class.mysqli.php
+    ref:
+        https://www.php.net/manual/en/langref.php
+        https://www.w3schools.com/php/php_ref_overview.asp
+payhere api: https://support.payhere.lk/api-&-mobile-sdk/checkout-api
+geolocation api: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+google maps: https://developers.google.com/maps/documentation/javascript/adding-a-google-map#javascript
